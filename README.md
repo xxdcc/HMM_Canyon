@@ -8,6 +8,10 @@ For support, questions, or feature requests contact: wl1@bcm.edu
 ## Citation
 Jeong M, Sun D, Luo M, Huang Y, Challen GA, Rodriguez B, Zhang X, Chavez L, Wang H, Hannah R, Kim SB, Yang L, Ko M, Chen R, Göttgens B, Lee JS, Gunaratne P, Godley LA, Darlington GJ, Rao A, Li W, Goodell MA. [Large conserved domains of low DNA methylation maintained by Dnmt3a](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3920905/)
 
+
+![image](canyon.png)
+
+
 ## Installatioin
 ```C++
 git clone https://github.com/xxdcc/HMM_Canyon.git
@@ -33,8 +37,22 @@ chr1|10525|10527|0.846|13.0|11|B|G|+|4.0|3|-|9.0|8|CG
 chr1|10542|10544|0.667|15.0|10|B|G|+|6.0|2|-|9.0|8|CG
 chr1|10563|10565|0.818|11.0|9|B|G|+|2.0|1|-|9.0|8|CG
 
-## Usage
+
+## Usages
+
 ```
 installation_path/canyon -m output_reformated_file -o output_canyon_file
 ```
+
+## Results
+```
+The output_canyon_file are using bed format and can be visualized in IGV.
+```
+chr|chromStart|chromEnd|name|score|strand|thickStart|thickEnd|itemRgb
+---|---|---|---|---|---|---|---|---
+chr9|4648474|4648777|0.03355064719348082|0|+|4648474|4648777|0
+chr9|38241466|38241840|0.03355064719348082|0|+|38241466|38241840|0
+chr9|45441756|45442136|0.04134063367193795|0|+|45441756|45442136|0
+chr9|67790926|67794475|0.037589431105059336|0|+|67790926|67794475|0
+chr9|77039259|77039419|0.03936699056527504|0|+|77039259|77039419|0
 
