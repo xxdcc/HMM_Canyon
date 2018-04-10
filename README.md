@@ -41,13 +41,12 @@ chr1|10563|10565|0.818|11.0|9|B|G|+|2.0|1|-|9.0|8|CG
 ## Usages
 
 ```
-installation_path/canyon -m output_reformated_file -o output_canyon_file
+/installation_path/canyon -m output_reformated_file -o output_canyon_file
 ```
 
 ## Results
-```
 The output_canyon_file are using bed format and can be visualized in IGV.
-```
+
 chr|chromStart|chromEnd|name|score|strand|thickStart|thickEnd|itemRgb
 ---|---|---|---|---|---|---|---|---
 chr9|4648474|4648777|0.03355064719348082|0|+|4648474|4648777|0
