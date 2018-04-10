@@ -16,7 +16,7 @@ Jeong M, Sun D, Luo M, Huang Y, Challen GA, Rodriguez B, Zhang X, Chavez L, Wang
 ```C++
 git clone https://github.com/xxdcc/HMM_Canyon.git
 cd HMM_Canyon
-g++ -o oumr hmm.cpp oumr.cpp  -Wall -I/usr/local/include -I/path_for_boost/boost/1.55.0/ -g -O3 -L/spath_for_boost/boost/1.55.0/stage/lib/ -lboost_program_options
+g++ -o oumr hmm.cpp oumr.cpp  -Wall -I/usr/local/include -I/path_for_boost/boost/1.55.0/ -g -O3 -L/path_for_boost/boost/1.55.0/stage/lib/ -lboost_program_options
 ```
 ## Data Preparation
 Please use the following command to convert the BSMAP or Bismark mapped methylation profile to the format for HMM_Canyon.
