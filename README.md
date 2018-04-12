@@ -3,7 +3,7 @@
 ## User-friendly tools for exploring DNA methylation Canyon
 HMM_Canyon addresses the challenge of de novo identifying large under methylated region (Canyons) through WGBS data. HMM_canyons contains useful modules to pre-process the mapped methylation profile data from BSMAP or Bismark, reporting the Canyons (or UMRs), which is useful for discovery of novel epigenetic features for DNA methylation.
 
-For support, questions, or feature requests contact: wl1@bcm.edu
+For support, questions, or feature requests contact: xc3@bcm.edu
 
 ## Citation
 Jeong M, Sun D, Luo M, Huang Y, Challen GA, Rodriguez B, Zhang X, Chavez L, Wang H, Hannah R, Kim SB, Yang L, Ko M, Chen R, Göttgens B, Lee JS, Gunaratne P, Godley LA, Darlington GJ, Rao A, Li W, Goodell MA. [Large conserved domains of low DNA methylation maintained by Dnmt3a](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3920905/)
